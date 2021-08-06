@@ -1,1 +1,25 @@
 /* Insert Css Here */
+
+section {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#minus {
+  background: #ffffff;
+  color: #666666;
+}
+#minus:hover {
+  background: #666666;
+  color: #ffffff;
+}
+
+#plus {
+  background: #ffffff;
+  color: #666666;
+}
+#plus:hover {
+  background: #666666;
+  color: #ffffff;
+}
