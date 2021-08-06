@@ -1,1 +1,29 @@
 /* Insert Css Here */
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#total {
+  font-size: 40px;
+}
+
+#num, .btn{
+  font-size: 30px;
+  height: 40px;
+}
+
+.btn {
+  width: 40px;
+  color: #fff;
+  background-color: #a9a9a9;
+  border: none;
+  border-radius: 10px;
+}
+
+#num {
+  text-align: center;
+  width: 80px;
+  border: 2px solid #a9a9a9;
+  border-radius: 10px;
+}
