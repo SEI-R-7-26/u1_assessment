@@ -7,32 +7,40 @@ body{
   grid-template-columns: repeat(3, 1fr);
 }
 input{
+  margin: 20px;
   text-align: center;
-  height: 100px;
+  height: 110px;
   width: 200px;
   font-size: 70px;
   border-radius: 5%;
   border: solid 5px #bbbbbb;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 h1 {
   margin: 0;
   text-align: center;
   font-size: 100px;
+  user-select: none;
 }
 .container {
-  grid-area: 2/2/3/3;
+  grid-area: 1/2/2/3;
   justify-content: center/center;
   justify-items: center;
   align-items: center;
-  width: 800px;
+  width: 100%;
 }
 .flexCon {
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: space-evenly;
   font-size: 80px;
 }
 .plusMinus {
+margin: 20px;
 background-color: #bbbbbb;
 color: #ffffff;
 padding: 10px;
@@ -40,6 +48,7 @@ width: 100px;
 text-align: center;
 border-radius: 10%;
 border: solid 5px #bbbbbb;
+user-select: none;
 }
 .plusMinus:hover {
   background-color: #ffffff;
