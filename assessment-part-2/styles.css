@@ -1,1 +1,35 @@
 /* Insert Css Here */
+body {
+  text-align: center;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: gray solid 4px;
+}
+
+#left {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+#right {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: gray;
+}
