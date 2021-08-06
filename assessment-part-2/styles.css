@@ -1,1 +1,42 @@
 /* Insert Css Here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 200px;
+  width: 500px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#top-num {
+  height: 25px;
+  width: 250px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#add {
+  height: 25px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 125px;
+}
+
+#subtract {
+  height: 25px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 43px;
+}
+
+.secondNum {
+  font-size: 30px;
+}
