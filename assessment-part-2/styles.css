@@ -14,7 +14,11 @@ h1 {
   text-align: center;
 }
 
-#top-num {
+.input {
+  width: 100px;
+}
+
+#count-display {
   height: 25px;
   width: 250px;
   margin: auto;
@@ -35,8 +39,4 @@ h1 {
   width: 100px;
   margin-top: 50px;
   margin-left: 43px;
-}
-
-.secondNum {
-  font-size: 30px;
 }

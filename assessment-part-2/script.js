@@ -1,29 +1,36 @@
 // Insert Javascript Here
-let topNumber = document.querySelector('#top-num')
+let countDisplay = document.querySelector('#count-display')
 let add = document.querySelector('#add')
 let subtract = document.querySelector('#subtract')
 let addedNumber = document.querySelector('.up')
 let subtractNumber = document.querySelector('.down')
-let secondNum = document.querySelector('.secondNum')
+let input = document.querySelector('.input')
 let inc = document.querySelector('.inc')
 let dec = document.querySelector('.dec')
 
 let counter = 0
-let bottomCounter = 1
+input.value = 1
 
 add.addEventListener('click', () => {
   counter++
-  bottomCounter++
-  topNumber = counter
-  addedNumber.innerHTML = topNumber
-  secondNum = bottomCounter
+  countDisplay = counter
+  addedNumber.innerHTML = countDisplay
+  input = bottomCounter
   inc.innerHTML = bottomCounter
+  changeColor()
 })
 
 subtract.addEventListener('click', () => {
   counter--
-  bottomCounter--
-  topNumber = counter
-  subtractNumber.innerHTML = topNumber
-  dec.innerHTML = bottomCounter
+  countDisplay = counter
+  subtractNumber.innerHTML = countDisplay
+  changeColor()
 })
+
+changeColor = () => {
+  if (countDisplay <= -1) {
+    document.getElementById('count-display').style.color = 'red'
+  } else if (countDisplay >= 0) {
+    document.getElementById('count-display').style.color = 'black'
+  }
+}
