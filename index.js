@@ -21,6 +21,8 @@ const absoluteSum = (arrNums) => {
 
 const returnAllValues = (object) => {
   // return all values from the provided object in a new array
+  let allValues = Object.values(object)
+  return allValues
 }
 
 const countItems = (arr) => {
