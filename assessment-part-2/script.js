@@ -8,21 +8,17 @@ let input = document.querySelector('.input')
 let inc = document.querySelector('.inc')
 let dec = document.querySelector('.dec')
 
-let counter = 0
+let num = ''
 input.value = 1
 
 add.addEventListener('click', () => {
-  counter++
-  countDisplay = counter
+  countDisplay = num + input.value
   addedNumber.innerHTML = countDisplay
-  input = bottomCounter
-  inc.innerHTML = bottomCounter
   changeColor()
 })
 
 subtract.addEventListener('click', () => {
-  counter--
-  countDisplay = counter
+  countDisplay = num - input.value
   subtractNumber.innerHTML = countDisplay
   changeColor()
 })
