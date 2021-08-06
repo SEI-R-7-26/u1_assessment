@@ -1,1 +1,58 @@
 /* Insert Css Here */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-text {
+  color: red;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 100px;
+}
+
+button {
+  border: 0;
+  width: 70px;
+  height: 70px;
+  margin: 0 20px;
+  border-radius: 10px;
+  background-color: #a9a9a9;
+  color: white;
+  font-size: 50px;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #a9a9a9;
+  background-color: white;
+  box-shadow: 0px 5px 20px #a9a9a9;
+}
+
+button:active {
+  color: white;
+  background-color: #a9a9a9;
+}
+
+input {
+  height: 65px;
+  padding: 0;
+  border: 3px solid #a9a9a9;
+  border-radius: 10px;
+  font-size: 50px;
+  max-width: 20%;
+  text-align: center;
+  outline: none;
+}
+
+div.controls {
+  display: flex;
+  justify-content: center;
+}
