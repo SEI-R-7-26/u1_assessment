@@ -1,1 +1,4 @@
-/* Insert Css Here */
+body {
+  display: grid;
+  justify-content: center;
+}
