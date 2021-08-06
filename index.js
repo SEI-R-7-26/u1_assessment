@@ -2,7 +2,10 @@
 
 const joinStrings = (str1, str2) => {
   // Return a string with both strings combined. You MUST include a space between the two strings when joining.
-
+  // const h = "hello"
+  // const w =  "world"
+  // let result = `${h} ${w}`
+  // return result
 }
 
 const absoluteSum = (arrNums) => {
@@ -14,7 +17,12 @@ const absoluteSum = (arrNums) => {
 
 const returnAllValues = (object) => {
   // return all values from the provided object in a new array
-
+  let newArray = obj.filter((value) => {
+    if (value."" === true) {
+      return value
+    }
+  })
+  return newArray
 }
 
 const countItems = (arr) => {
@@ -24,7 +32,7 @@ const countItems = (arr) => {
 
 const returnAllEvens = (nums) => {
   // return all even numbers in a new array from the provided nums array.
-
+  const 
 }
 
 const returnPower = (num, pow) => {
