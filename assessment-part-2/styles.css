@@ -4,5 +4,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: rgb(70, 102, 102);
     
+}
+h1 {
+    font-size: 70px;
+    color: rgb(41, 45, 48);
+}
+button {
+    border: black solid 2px;
+    border-radius: 20px;
+    height: 3rem;
+    width: 3rem;
+}
+input {
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 2.5rem;
+}
+#buttonIncrease {
+    background-color: green;
+}
+#buttonDecrease {
+    background-color: red;
 }
