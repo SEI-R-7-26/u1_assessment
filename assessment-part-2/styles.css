@@ -1,1 +1,47 @@
-/* Insert Css Here */
+html {
+  margin: 0
+}
+body{
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+input{
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  font-size: 70px;
+  border-radius: 5%;
+  border: solid 5px #bbbbbb;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+.container {
+  grid-area: 2/2/3/3;
+  justify-content: center/center;
+  justify-items: center;
+  align-items: center;
+  width: 800px;
+}
+.flexCon {
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 80px;
+}
+.plusMinus {
+background-color: #bbbbbb;
+color: #ffffff;
+padding: 10px;
+width: 100px;
+text-align: center;
+border-radius: 10%;
+border: solid 5px #bbbbbb;
+}
+.plusMinus:hover {
+  background-color: #ffffff;
+  color: #bbbbbb;
+}
