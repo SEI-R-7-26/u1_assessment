@@ -1,1 +1,20 @@
 /* Insert Css Here */
+body {
+ text-align: center; 
+}
+
+.both {
+  background-color: rgb(185, 172, 172);
+color: white;
+border: 1px;
+width: 35px;
+height: 35px;
+font-size: 25px;
+}
+ .my-input {
+   text-align: center;
+   margin: auto 10px;
+   font-weight: bolder;
+   font-size: 15px;
+   color: black;
+ }
