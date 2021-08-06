@@ -7,10 +7,12 @@ describe('Unit 1 Assessment Questions', () => {
     let result = `${str1} ${str2}`
     expect(functions.joinStrings(str1, str2)).toBe(result)
   })
+
   it('absoluteSum should sum all nums in an array', () => {
     let arrNums = [1,2,3,'4']
     let result = 6
     expect(functions.absoluteSum(arrNums)).toBe(result)
+  
   })
   it('returnAllValues should return all the values of an Object', () => {
     let obj = {1: 'one', 2: 'two', 3: 'three'}
