@@ -1,1 +1,36 @@
 /* Insert Css Here */
+body {
+  margin: 200px auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+section {
+  font-size: 25px;
+  margin: 30px auto;
+}
+
+input {
+  height: 50px;
+  width: 100px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid hsl(0deg 0% 66%)
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  background-color: hsl(0deg 0% 66%);
+  border-radius: 10px;
+  border: 2px solid hsl(0deg 0% 66%)
+}
+
+button:hover {
+  background-color: white;
+}
