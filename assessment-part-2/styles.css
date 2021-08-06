@@ -1,1 +1,17 @@
 /* Insert Css Here */
+body {
+  background-color: gray;
+  text-align: center;
+  margin: 20% auto;
+}
+
+button {
+  height: 25px;
+  width: 25px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
