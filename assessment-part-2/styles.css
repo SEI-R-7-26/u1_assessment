@@ -1,1 +1,44 @@
-/* Insert Css Here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 0 21px 0;
+}
+
+input {
+  height: 30px;
+  width: 50px;
+  border: 2px solid #a8a8a8;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  height: 32px;
+  width: 32px;
+  margin: 0 5px;
+  text-align: center;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  background-color: #a8a8a8;
+  color: white;
+  /* crazy how much style a 0.3 second transition adds */
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: #a8a8a8;
+}
