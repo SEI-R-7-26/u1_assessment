@@ -27,6 +27,7 @@ const returnAllValues = (object) => {
 
 const countItems = (arr) => {
   // return total number of items in the provided array
+  return arr.length
 }
 
 const returnAllEvens = (nums) => {
