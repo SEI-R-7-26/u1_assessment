@@ -1,0 +1,21 @@
+body {
+  background-color: gray;
+}
+
+#plus {
+  text-align: center;
+  height: 20%;
+  width: 20%;
+}
+#minus {
+  text-align: center;
+  height: 20%;
+  width: 20%;
+}
+#number-input {
+  text-align: center;
+}
+
+#counter {
+  text-align: center;
+}
