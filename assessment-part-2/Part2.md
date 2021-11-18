@@ -80,7 +80,6 @@ Congrats, that's all there is to it!
 
 ## Hints
 - **Prioritize functionality over layout/styling.** Once the functionality is complete, then work on styling to get the UI as close as possible to the wireframes/images (see the below hint for using flexbox for layout).
-- The principles in [Guide on How to Build a Browser App](https://github.com/ga-students/wdi-dt-57/blob/master/work/w01/d5/03-guide-to-building-a-browser-app.md) apply!
 - Use CSS flexbox to ease horizontal and vertical centering:
 
 	```css
